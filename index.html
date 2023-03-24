@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="pictures/icon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1>Currency Converter</h1>
+      </header>
+      <p class="date">10.4.2021</p>
+      <section>
+        <article class="currency czk active">
+          <img src="pictures/flags/cz.png" alt="czech" />
+          <input
+            type="number"
+            class="currency"
+            id="czech_crown"
+            placeholder="0.0000"
+          />
+          <h2>Kč</h2>
+          <p>CZK - Czech Crown</p>
+          <p>
+            1 <span class="defaut"> CZK </span> =
+            <span class="exchange"> 1 </span>
+            CZK
+          </p>
+        </article>
+
+        <article class="currency usd">
+          <img src="pictures/flags/usa.png" alt="united states" />
+          <input
+            type="number"
+            class="currency"
+            id="dollar"
+            placeholder="0.0000"
+          />
+          <h2>$</h2>
+          <p>USD - US Dollar</p>
+          <p>
+            1 <span class="defaut"> USD </span> =
+            <span class="exchange"> 1 </span>
+            USD
+          </p>
+        </article>
+
+        <article class="currency gbp">
+          <img src="pictures/flags/gb.png" alt="great britain" />
+          <input
+            type="number"
+            class="currency"
+            id="pound"
+            placeholder="0.0000"
+          />
+          <h2>£</h2>
+          <p>GBP - British Pound</p>
+          <p>
+            1 <span class="defaut"> GBP </span> =
+            <span class="exchange"> 1 </span>
+            GBP
+          </p>
+        </article>
+
+        <article class="currency eur">
+          <img src="pictures/flags/eu.png" alt="european union" />
+          <input
+            type="number"
+            class="currency"
+            id="euro"
+            placeholder="0.0000"
+          />
+          <h2>€</h2>
+          <p>EUR - Euro</p>
+          <p>
+            1 <span class="defaut"> EUR </span> =
+            <span class="exchange"> 1 </span>
+            EUR
+          </p>
+        </article>
+      </section>
+
+      <footer class="convert">
+        <button><h2>Convert</h2></button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
